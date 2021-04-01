@@ -290,7 +290,7 @@
 
 .ex-13-button:hover > .ex-13-top-white {
 
-    animation: rotate-3 2s linear;
+    animation: rotate-3 3s linear;
 
 }
 
@@ -313,12 +313,12 @@
 
     75% {
         top: calc(100% - 10px);
-        left: -20px ;
+        left: -15px ;
     } 
 
     85%{
          top: -10px;
-         left:  -30px ;
+         left:  -15px ;
     }
 
     100%{
@@ -330,9 +330,7 @@
 
 
 .ex-13-button:hover > .ex-13-bottom-white {
-
-    animation: rotate-4 2s linear;
-
+    animation: rotate-4 3s linear;
 }
 
 
@@ -344,24 +342,24 @@
     }
 
     25% {
-        bottom: -5px;
-        right: calc(100% - 30px);
+        bottom: -15px;
+        right: calc(100% - 40px);
     }
 
 
     50% {
         bottom: calc(100% - 10px);
-        right: calc(100% - 30px); 
+        right: calc(100% - 40px); 
     }
 
     75% {
         bottom: calc(100% - 10px);
-        right: calc(-30px - 30px); 
+        right: -15px; 
     }
 
     85%{
-        bottom: calc(0 - 10px);
-        right: calc(-30px - 30px) ;
+        bottom: -5px;
+        right: -30px ;
    }
 
     100% {
